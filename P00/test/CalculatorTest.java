@@ -30,7 +30,6 @@ public class CalculatorTest {
 		// Arrange
 		int a = 1234;
 		int b = 8765;
-
 		Calculator cal = new Calculator();
 
 		// Act
@@ -40,13 +39,13 @@ public class CalculatorTest {
 		int expected = 9999;
 		assertEquals(expected, actual);
 	}
+	
 	@Test
 	public void testSubtract() {
 		// fail("Not yet implemented");
 		// Arrange
 		int a = 9876;
 		int b = 4321;
-		
 		Calculator cal = new Calculator();
 		
 		// Act
@@ -63,7 +62,6 @@ public class CalculatorTest {
 		// Arrange
 		int a = 2;
 		int b = 3;
-		
 		Calculator cal = new Calculator();
 		
 		// Act
@@ -80,7 +78,6 @@ public class CalculatorTest {
 		// Arrange
 		int a = 10;
 		int b = 2;
-		
 		Calculator cal = new Calculator();
 		
 		// Act
@@ -90,4 +87,5 @@ public class CalculatorTest {
 		int expected = 5;
 		assertEquals(actual, expected);
 	}
+	
 }
